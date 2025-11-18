@@ -37,8 +37,25 @@ There are lot of protocols to know in this layer, including Internet Protocol, I
 
 ICMP is a netework tool used for diagnositics such as ping and tracer route. 
 
-In Cyber securiy relevance of layer 3
+In Cyber security, the relevance of layer 3
+-IP Spoofing, Attackers fake their IP addresses to stay hidden in the internet
+-ICMP Attacks
+-Routing Attacks, hijacking routing protocols to misdirect traffic into another server
+-Using Man in the Middle tickets for routing manipulating. If attackers an influcnce routing tables/records, they can intercept traffic. 
 
+**Layer 4 Transpor Layer****
+Layer 4 is responsible for end-to-end communication between applications.
+It ensures that data is delivered reliably (or quickly, depending on the protocol).
 
+While Layer 3 gets the packet to the correct network, Layer 4 gets it to the correct application on the destination device.
 
+Think of Layer 3 as mailing a package to the right building.
+Layer 4 makes sure it gets delivered to the right apartment inside the building.
+
+A layer 4, port numbers are identified here for application to recieve data
+
+Port 80 belongs to HTTP, Port 443 is the secure one
+SSH belongs to SSH
+
+At the Transport layer 4 layer,
 
