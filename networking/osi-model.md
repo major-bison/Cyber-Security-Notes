@@ -26,7 +26,18 @@ Cyber Security relevant in layer 2 involves Mac Spoofing, ARP Spoofing, and Rogu
 ARP Spoofing, also known as ARP poisoning, occurs when a hacker tricks devices into sesnding traffic to them. 
 ARP = Address Resolution Protocol, protocol that lets a computer find the MAC address of another device on the same local network. 
 
+**Layer 3- Network Layer**
 
+Into Layer 3, we have a layer thats responsible for sending data between different local networks.
+This involves cities, countries or across the globe. 
+
+In here, we have logical addressing (Assigning IP Addresses), Routing - choosing the safest and fastest path between networks and finally, Packet Forwarding - sending data that travels throughout the entire internet.
+
+There are lot of protocols to know in this layer, including Internet Protocol, ICMP, Routing PRotocols, and VPN protocols. 
+
+ICMP is a netework tool used for diagnositics such as ping and tracer route. 
+
+In Cyber securiy relevance of layer 3
 
 
 
