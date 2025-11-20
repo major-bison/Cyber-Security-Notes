@@ -68,4 +68,4 @@ TCP based services include HTTPS, SSH, FTP, and Email.
 UDP involves quick delivery but not guarantee delievery, no order, and very low latency.
 Online Gaming, Streaming and VoIP are examples of UDP. 
 
-In Major Layer 
+In Cyber Security layer 4 attacks, it involves SYN Flood, Attackers send many TCP SYN (part of 3 hard shake) packets to exhaust reserouces. UDP flood is similar as well.  Attacks can manipulation TCP flags as well to overwhelm firewalls. 
