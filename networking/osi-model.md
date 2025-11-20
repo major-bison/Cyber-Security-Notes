@@ -69,3 +69,10 @@ UDP involves quick delivery but not guarantee delievery, no order, and very low 
 Online Gaming, Streaming and VoIP are examples of UDP. 
 
 In Cyber Security layer 4 attacks, it involves SYN Flood, Attackers send many TCP SYN (part of 3 hard shake) packets to exhaust reserouces. UDP flood is similar as well.  Attacks can manipulation TCP flags as well to overwhelm firewalls. 
+
+
+**Layer 5 Session**
+
+It is basically the part of networking that keeps a conversation going between two devices. When two applications want to talk, the session layer is what starts that connection, keeps it open, and makes sure everything stays in order while data is being exchanged. If the connection drops or pauses, this layer helps pick things back up without starting over. You can think of it as the “meeting organizer” that handles when a session begins, stays active, and ends. This matters in cybersecurity because a lot of attacks target sessions, like stealing someone’s login session, hijacking a web cookie, or abusing a VPN session. If a session isn’t protected or expires properly, attackers can slip in and impersonate a user.
+
+Session Layer also involves keeping SSH Session stable, world of warcraft servers able to host players or staying logged in with your email account. Also Session layers keep the connection or the sesession alive such as a video call that freeses but able to resume few seconds later.
