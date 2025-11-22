@@ -76,3 +76,30 @@ In Cyber Security layer 4 attacks, it involves SYN Flood, Attackers send many TC
 It is basically the part of networking that keeps a conversation going between two devices. When two applications want to talk, the session layer is what starts that connection, keeps it open, and makes sure everything stays in order while data is being exchanged. If the connection drops or pauses, this layer helps pick things back up without starting over. You can think of it as the “meeting organizer” that handles when a session begins, stays active, and ends. This matters in cybersecurity because a lot of attacks target sessions, like stealing someone’s login session, hijacking a web cookie, or abusing a VPN session. If a session isn’t protected or expires properly, attackers can slip in and impersonate a user.
 
 Session Layer also involves keeping SSH Session stable, world of warcraft servers able to host players or staying logged in with your email account. Also Session layers keep the connection or the sesession alive such as a video call that freeses but able to resume few seconds later.
+
+
+Layer 6 is basically the “formatting and translating” layer of the OSI Model. Its main job is to make sure the data being sent from one device can actually be understood by the application on the other device. Different systems use different formats, so the presentation layer acts like the middleman that converts things into a standard form.
+
+This layer handles three important things:
+1. Encoding
+This includes character sets (ASCII, UTF-8, Unicode) and file formats (JPEG, PNG, MP3, AVI). It ensures that text, images, audio, and video are represented in a way that both sides recognize.
+
+2. Compression
+Large files (videos, images, documents) are often compressed so they travel faster across the network. This is handled at Layer 6.
+
+3. Encryption / Decryption
+This is one of the biggest security roles of Layer 6. Whenever you use HTTPS, TLS, SSL, or certificates, encryption happens here. Your data is scrambled into a secure format before transmission—and decoded on the receiving side.
+
+A good example is emailing a photo. The image is saved as JPEG or PNG (Layer 6 format). When the email client attaches it, something like MIME converts it into a safe, standardized format so it can be transmitted over the internet.
+
+In layer 6, malware can be compressed into paylods. PDFs and Images can be used to hide with malicous intent
+
+Layer 7 is the final layer. The part you actually interact with as a user. This layer contains the network services your applications use every day, such as web browsing, email, file transfers, messaging, DNS lookups, and more.
+Any time you type a URL into your browser, send an email, watch a video, or play an online game, you’re using Layer 7 protocols.
+
+Examples include:
+
+HTTP / HTTPS which is for web browsing
+DNS converts domain names to IP addresses
+
+HTTP Floods/Layer 7 DDos occurs here and DNS poision as well
