@@ -1,0 +1,12 @@
+Unicast means sending data from one device directly to one specific device on a network.
+It’s a one-to-one communication: one sender, one receiver.
+
+Example:
+Your computer sending a message only to your friend’s computer.
+
+Multicast means sending data from one device to a selected group of devices on the network.
+It’s a one-to-many communication  but only to devices that are part of that specific group, not to everyone, 
+
+Broadcoast means to ALL Recievers 
+
+A broadcast domain is a “zone” in a network where broadcast messages can reach all devices. A router is a device that seperates domains. 
