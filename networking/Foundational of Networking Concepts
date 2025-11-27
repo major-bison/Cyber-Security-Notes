@@ -52,6 +52,19 @@ We will need to use THE AND rules in order to calculate the binary number.
 0 and 1 = 0
 0 and 0 = 0
 
+for example) ): 192.168.3.100, converting this to a binary number, we get : 11000000.10101000.00000011.01100100
+The Subnet mask is 11111111.11111111.11111111.00000000
+
+With both values, we will use the AND operation to find it's Network Part address
+11000000.10101000.00000011.01100100
+11111111.11111111.11111111.00000000
+-----------------------------------
+11000000.10101000.00000011.00000000 <- this is the answer now
+
+11000000.10101000.00000011.00000000 convert this back to decimal and we get 192.168.3.0
+
+Thus 192.168.3.0 is the network address for 192.168.3.100
+
 
 
 
