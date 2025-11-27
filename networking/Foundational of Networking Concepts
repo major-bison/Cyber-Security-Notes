@@ -66,6 +66,6 @@ With both values, we will use the AND operation to find it's Network Part addres
 Thus 192.168.3.0 is the network address for 192.168.3.100
 
 
+For linux and macOS machines, we can use ifconfig to get the ip address and mac address as well of the device. For Windows, it's ipconfig. 
 
-
-
+**PRIVATE IP ADDRESS AND NETWORK ADDRESS TRANSLATION**
