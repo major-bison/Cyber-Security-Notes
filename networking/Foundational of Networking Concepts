@@ -103,6 +103,6 @@ Helps identify lateral movement in breaches
 
 Now then, What Is NAT?
 
-NAT = Network Address Translation
+NAT = Network Address Translation, a special feature of a router
 It’s the process your router uses to translate private IPs into a public IP so your devices can use the internet.
-Note that Private IP addresses should not be going outbound
+Note that Private IP addresses should not be going outbound. 
