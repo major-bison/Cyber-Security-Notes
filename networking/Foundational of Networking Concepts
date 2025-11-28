@@ -69,3 +69,40 @@ Thus 192.168.3.0 is the network address for 192.168.3.100
 For linux and macOS machines, we can use ifconfig to get the ip address and mac address as well of the device. For Windows, it's ipconfig. 
 
 **PRIVATE IP ADDRESS AND NETWORK ADDRESS TRANSLATION**
+
+Private IPs are special IP ranges that are not routable on the public internet.
+They are used inside local networks only, such as:
+Your home Wi-Fi network
+School or office networks
+On-premises corporate networks
+Internal VLANs in enterprise SOC environments
+
+Devices inside these networks talk with each other using these private addresses.
+To access the internet, these devices use NAT (Network Address Translation) on a router.
+
+These ranges are defined by RFC 1918:
+**10.0.0.0 – 10.255.255.255**
+
+The largest private range are often used in large organizations, cloud environments, AWS VPCs, Azure VNets
+It can support millions of hosts
+
+172.16.0.0 – 172.31.255.255
+Medium-sized range
+Used in medium to large businesses
+
+Avoids conflicts with the common 192.168.x.x networks
+ 192.168.0.0 – 192.168.255.255
+The most common for home networks
+Wi-Fi routers typically use:
+192.168.0.x
+192.168.1.x
+
+Inbound traffic from the internet should never contain private IPs → indicates spoofing
+Know which subnets belong to which departments in an enterprise
+Helps identify lateral movement in breaches
+
+Now then, What Is NAT?
+
+NAT = Network Address Translation
+It’s the process your router uses to translate private IPs into a public IP so your devices can use the internet.
+Note that Private IP addresses should not be going outbound
