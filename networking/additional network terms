@@ -1,3 +1,7 @@
+
+
+
+
 1. What is TTL? (Time To Live)
 
 TTL is a number in the IP header that prevents packets from looping forever.
