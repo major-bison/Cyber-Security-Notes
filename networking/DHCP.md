@@ -44,4 +44,9 @@ Client replies: “Yes, I want that IP.”
 4. Acknowledge
 Server says:
 “Complete, so this IP address is yours.”
-After this, the device is ready to communicate on the network. 
+After this, the device is ready to communicate on the network.
+
+NOTE: Usually the router is your DHCP server. 
+
+
+
