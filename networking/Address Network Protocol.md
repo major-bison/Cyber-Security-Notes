@@ -13,3 +13,23 @@ The router replies with its MAC, and now both sides know how to send Ethernet fr
 Same thing if two computers on the same LAN want to talk. They ARP each other directly without the router getting involved.
 
 ARP only works inside the local network (not over the internet). Without ARP, no device could send or receive anything at Layer 2.
+
+//Insert a picture of Arp Spoofing
+Now what is ARP Spoofing? 
+
+ARP spoofing occurs when an attacker lies on the network by sending fake ARP replies. The goal is to trick devices into thinking the attacker’s MAC address belongs to another important IP, usually the router or another victim.
+
+Basically, the attacker says:
+
+“I’m that other device you’re trying to reach.”
+Once devices believe the attacker, all the traffic that should go between the victim and the router gets rerouted through the attacker first. 
+This enables the attacker to 
+
+1. Read the victim’s traffic
+2. Ateal logins and cookies
+3. Modify packets
+4. Inject malware
+4. Break connections
+5. DoS a device by sending bogus ARP entries
+
+ARP spoofing works because ARP has no authentication — devices trust whatever ARP reply they receive.
