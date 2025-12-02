@@ -53,5 +53,10 @@ In other words, the top panel explains what the packet means, and the bottom pan
 Now using the following command lines: tshark -r arp.pcapng -Nn
                                        tcpdump -r arp.pcapng -n -v
 
-We can show valuable information about what's going on during the ARP phase on this packet.
+We can use them to check what's going on when ARP is identifying the IP address:
+tshark -r arp.pcapng -Nn:
+1. tshark is a command for wireshark
+2. The arugment -r is used read from a file
+3. arp.pcapng is the name of the file. 
+
 
