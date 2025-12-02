@@ -57,6 +57,16 @@ We can use them to check what's going on when ARP is identifying the IP address:
 tshark -r arp.pcapng -Nn:
 1. tshark is a command for wireshark
 2. The arugment -r is used read from a file
-3. arp.pcapng is the name of the file. 
+3. arp.pcapng is the name of the file.
+4. -Nn, there are two arguments that are being used here
+-N formats what kind of name should it display
+The n displays the IP address of the device instead of a hostname. 
 
+Thus if we run an example file, we get 
+  1. 0.000000000 cc:5e:f8:02:21:a7 → ff:ff:ff:ff:ff:ff ARP 42 Who has 192.168.66.1? Tell 192.168.66.89 //Packet 1 is showing an arp request
+  2. 2 0.003566632 44:df:65:d8:fe:6c → cc:5e:f8:02:21:a7 ARP 42 192.168.66.1 is at 44:df:65:d8:fe:6c   //Packet 2 is showing an arp reply
 
+So basically Packet1 shows: sending this to the broadcast(ff:ff:ff:ff..), 
+        "Who has 192.168.66.1? I am 192.168.66.89, here is my MAC."
+
+Then at packet 2: Responding to the reqiest,  “192.168.66.1 is here. My MAC is 44:df:65:d8:fe:6c.” 
