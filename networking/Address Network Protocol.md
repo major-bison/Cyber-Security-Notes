@@ -34,9 +34,14 @@ This enables the attacker to
 
 ARP spoofing works because ARP has no authentication, meaning devices trust whatever ARP reply they receive.
 
-https://github.com/chgonzaga1/Cyber-Security-Notes/blob/main/networking/images/arpwireshark.png
+
+![ARP Wireshark]([https://github.com/chgonzaga1/malware-engineering/blob/main/image-of-cpu-register.jpg](https://github.com/chgonzaga1/malware-engineering/blob/main/image-of-cpu-register.jpg)
+
+
 
 Let's take a look of a screenshot
 Through the use of Wireshark, we can take a closer look of what's going on during a ARP request.
 
-networking/images/tcpdump1.png
+![TCP Dump 1](networking/images/tcpdump1.png)
+
+
