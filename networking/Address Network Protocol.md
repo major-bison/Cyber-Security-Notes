@@ -37,6 +37,7 @@ ARP spoofing works because ARP has no authentication, meaning devices trust what
 
 ![ARP Wireshark](https://github.com/chgonzaga1/Cyber-Security-Notes/blob/main/networking/images/arpwireshark.png)
 
+Note: Wireshark is a network analyzer tool used by Network technicians to examine and capture network packets, decode and analyze them. 
 
 
 Let's take a look of a screenshot
@@ -49,4 +50,8 @@ In other words, the top panel explains what the packet means, and the bottom pan
 
 ![TCP Dump 1](https://github.com/chgonzaga1/Cyber-Security-Notes/blob/main/networking/images/tcpdump1.png)
 
+Now using the following command lines: tshark -r arp.pcapng -Nn
+                                       tcpdump -r arp.pcapng -n -v
+
+We can show valuable information about what's going on during the ARP phase on this packet.
 
