@@ -35,7 +35,7 @@ This enables the attacker to
 ARP spoofing works because ARP has no authentication, meaning devices trust whatever ARP reply they receive.
 
 
-![ARP Wireshark](https://github.com/chgonzaga1/Cyber-Security-Notes/blob/main/networking/images/arpwireshark.png?raw=true)
+![ARP Wireshark](https://github.com/chgonzaga1/Cyber-Security-Notes/blob/main/networking/images/arpwireshark.png)
 
 
 
