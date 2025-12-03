@@ -29,6 +29,13 @@ Packet Loss: How many pings get lost or dropped.
 Latency & Stability: High variability (jitter) = unstable network.
 
 Also, an Echo Request is a special kind of ICMP packet sent when you use the ping command.
-It contains, ICMP Type 8, ICMP Code 0, Identifier (ID) ,Sequence number (#1, #2, #3…), A checksum, Optional data (ping's payload, usually 32 bytes)
-Type 8 means echo request, Typ 0 means echo response
-The code means 
+It contains:
+<u>ICMP Type 8, 
+   ICMP Code 0, 
+  Identifier (ID)
+  Sequence number (#1, #2, #3…) 
+  A checksum
+  Optional data (ping's payload, usually 32 bytes) </u>
+
+a)Type 8 means echo request, Typ 0 means echo response
+b) The code means 
