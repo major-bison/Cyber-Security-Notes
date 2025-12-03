@@ -37,5 +37,6 @@ It contains:
   A checksum
   Optional data (ping's payload, usually 32 bytes) </u>
 
-a)Type 8 means echo request, Typ 0 means echo response
-b) The code means 
+a)Type 8 means echo request, Typ 0 means echo response.  
+
+b)The code means 
