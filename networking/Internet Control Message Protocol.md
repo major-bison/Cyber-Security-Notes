@@ -49,3 +49,13 @@ c) ID is a number used to match a request with its reply. It's like a tag to the
 d)  A sequence number is that matches the counter of each new echo request, it detects lost packages  
 
 e) Check sum is used for data integrity check. A way to detect packet corruption.  
+
+**Trace Route**
+Traceroute  is used to find every router between me and a target by playing with the TTL value in the IP header. Every time a packet hits a router, the TTL drops by 1. When it hits zero, that router throws the packet away and sends back an ICMP Time Exceeded message. Traceroute takes advantage of this by sending packets with TTL values starting at 1, then 2, then 3, etc. Each TTL value forces one router to respond, which lets me see the path my packets take. Some routers respond, some stay silent (shown as *), and some reveal private or public IPs. The route can even change slightly every time I run the command. There are tiems that the router will reveal the public address and leads to it's geographic location. 
+
+So basically what is Time to live (TTL)? It’s a value inside an IP packet that tells the network how many routers the packet is allowed to pass through before being discarded.
+
+Without TTL, these looping packets would clog the network, waste bandwidth, slow internet connection and cause network meltodown.  
+
+TTL's purpose is to make sure that after X amount of hops, the packet dies and disappears.
+
