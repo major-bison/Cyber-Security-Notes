@@ -1,0 +1,21 @@
+A) OSPF (Open Shortest Path First)  
+OSPF is a routing protocol where routers constantly tell each other about every link in the network.  
+This lets every router build a complete map of the whole network, like a GPS map.  
+Using that map, each router calculates the shortest and fastest path to every destination using the Dijkstra algorithm.  
+It’s fast, accurate, and great for medium and large networks.
+
+B) Enhanced Interior Gateway Routing Protocol
+EIGRP is a Cisco-only routing protocol that mixes the best parts of different algorithms.
+Routers share routes and measure things like bandwidth and delay to figure out the best path.  
+The DUAL algorithm helps it converge quickly and prevents loops.  It’s more efficient and smarter than RIP.
+
+C) BGP (Border Gateway Protocol)
+BGP is the main routing protocol of the entire Internet. It lets networks like ISPs exchange routing information. 
+Instead of picking the shortest path, BGP looks at entire routes (AS paths) and makes decisions based on policies, preferences, or business rules. 
+BGP is how data knows which path to take across the world.
+
+D) RIP (Routing Information Protocol):
+RIP is a very simple routing protocol that chooses paths based on hop count.   
+Each router tells its neighbors how many hops away each network is.   
+It works for small networks but doesn’t scale because the max number of hops is only 15, and updates are slow.
+RIP is also outdated because it’s slow, can’t scale, uses a dumb metric (hop count), and only works for tiny networks. Anything bigger than a small LAN will break RIP.
