@@ -31,3 +31,6 @@ So note getting a IP address for the website requries to go thruough many layers
 YSo es, DNS goes through multiple DNS servers in a chain. Each one points you to the next until you get the final answer.
 
 Once the resolver has the answer, it caches it so you don’t have to repeat all those steps next time.
+
+We will now take a look at nslookup command line, which retrives the IP address of a domain.  
+
