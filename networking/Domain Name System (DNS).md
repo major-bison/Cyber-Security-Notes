@@ -38,7 +38,8 @@ If you type in nslookup for www.google.com, it would return 10 results
 
 The first 4 are the ip4 address and the other is ipv6.
 
-If we type: nslookup www.google.com:
+If we type: nslookup www.google.com:  
+
 <img width="518" height="390" alt="image" src="https://github.com/user-attachments/assets/a7904b6d-f811-4750-a51f-380152fbba16" />
 
 Important note:
