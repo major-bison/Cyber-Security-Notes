@@ -33,4 +33,20 @@ one of these methods is being used behind the scenes.
 Used to retrieve information from a server.  
 This is what happens when you open a webpage or load an image.  
 It never changes data on the server—it's only reading, not modifying.  
-An example would be: GET /profile/chris after you go to a link www.facebook/profile/bison
+An example would be: GET /profile/chris after you go to a link www.lalafacebook/profile/bison
+
+2)Post:
+
+Applied when you send data to the server.
+It is common for logging in, submitting forms, uploading files  
+Data goes in the request body, not into the URL
+
+3)Put
+
+4)Delete 
+
+5)Patch
+
+6)Head
+
+7)Options
