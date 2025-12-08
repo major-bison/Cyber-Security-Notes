@@ -1,3 +1,3 @@
 File Transfer Protocol(FTP)
 
-This protocol is deveoped to transfer files 
+This protocol is developedd for transfering files between the network. 
