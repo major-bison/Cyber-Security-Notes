@@ -1,5 +1,5 @@
 Also known as SMTP, this protocol is designed to send emails from one mail server to another
-It uses TCP port 25. Sometimes Port 465 and Port 587 are used
+It uses TCP port 25(This is a dangerous port since it's not encrpted). Port 465(more secured) and Port 587 are also used
 
 Note this procotcol is s NOT used for downloading emails. 
 
