@@ -1,0 +1,16 @@
+IMAP (Internet Message Access Protocol) is an email protocol that for accessing and managing email directly on the mail server, 
+rather than downloading and removing it like POP3.  
+
+The emails is stored onthe server and all of our devices can read the same email state as it was. 
+We can read, delete move or flag it and it will synchronized everywhere.
+Menaing what happens to email, will happen to your phone, desktop or other devices such as laptop. 
+
+Hence, it's one of the reasons why IMAP is better than POP 3. 
+The email history are preserved and it's easy for security technicians to audit and troubleshoot. 
+
+Unlike POP3, we dont have to download everything when we organzing the mail. 
+
+IMAP is used by GMAIL, outlook, yahoo, mobile device, cloud storage and large inboxes.  
+IMAP also happens ot have sophisticated commands than pop3. 
+
+It's default ports are TCP 143 and IMAPS TCP 933. 
