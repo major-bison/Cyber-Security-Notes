@@ -10,3 +10,6 @@ TLS provides two main guarantees: 1) Confidentiality and 2) Integrity
 Without TLS, Online shopping and banking would be unsafe to use. Emails and text messages could be altered or read  
 
 HTTPS, IMAPS, POP3S are an examples of TLS protocol being implemented.  
+
+It's important to note that encryption without identity verification would still allow man in the-middle (MITM) attacks.  
+
