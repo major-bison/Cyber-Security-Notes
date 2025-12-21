@@ -11,10 +11,28 @@ Without TLS, Online shopping and banking would be unsafe to use. Emails and text
 
 HTTPS, IMAPS, POP3S are an examples of TLS protocol being implemented.  
 
-It's important to note that encryption without identity verification would still allow man in the-middle (MITM) attacks.   
-That’s where TLS certificates and Certificate Authorities (CAs) implemented.  
+It's essential to note that encryption without identity verification would still permit man-in-the-middle (MITM) attacks.   
+That’s where TLS certificates and Certificate Authorities (CAs) are implemented.  
 
-A TLS certificate confirms the authenticity of the server’s identity, it's public key and a trusted authority who vouches for it
+A TLS certificate confirms the authenticity of the server’s identity, its public key, and a trusted authority that vouches for it
 
-Trusted Authority:  
+The certificate creation process: 
 
+Step 1: Server creates a CSR  
+The server admin generates a Certificate Signing Request (CSR)
+The CSR contains: Domain name, Public key, Organization info
+
+Step 2: CSR is sent to a Certificate Authority (CA)   
+Examples of CAs:   
+DigiCert   
+GlobalSign   
+Let’s Encrypt   
+Sectigo  
+
+Step 3: CA verifies the request  
+
+Confirms domain ownership and performs identity checks (depending on cert type)  
+
+Step 4: CA issues a signed certificate    
+
+The CA digitally signs the certificate and this signature is what browsers later verify  
