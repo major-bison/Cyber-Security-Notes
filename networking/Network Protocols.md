@@ -80,7 +80,7 @@ A VPN allows remote offices or users to securely connect to a main branch networ
 
 In a site-to-site VPN, entire remote networks connect to the main branch. All devices at the remote office send their traffic through a VPN gateway, which encrypts the data before sending it across the Internet. The encrypted traffic travels through the VPN tunnel and is decrypted only after reaching the main branch network.  
 
-In a remote-access VPN, individual users connect directly to the main branch using a VPN client on their device. This setup is common for remote workers and provides secure access to internal resources without exposing traffic to the public Internet.  
+In a remote access VPN, individual users connect directly to the main branch using a VPN client on their device. This setup is common for remote workers and provides secure access to internal resources without exposing traffic to the public Internet.  
 
 **VPN Tunneling and Internet Traffic Behavior**
 
