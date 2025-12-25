@@ -35,3 +35,24 @@ Confirms domain ownership and performs identity checks (depending on cert type)
 Step 4) CA issues a signed certificate    
 
 The CA digitally signs the certificate and this signature is what browsers later verify  
+
+
+-SSH-
+
+Telnet made it easy to manage systems remotely, but it had a major security flaw: all data, including usernames and passwords, was sent in cleartext. This meant anyone monitoring network traffic could easily steal login credentials. Thus, Secure Shell (SSH) was created.  
+
+SSH was developed by Tatu Ylönen in 1995, then in 1999, the OpenBSD team introduced OpenSSH, an open-source implementation of SSH that is now the foundation for most modern SSH clients.
+
+Key Benefits of OpenSSH :
+
+a)Secure Authentication  
+SSH supports multiple authentication methods, including passwords, public-key authentication, and even two-factor authentication. 
+
+b) Confidentiality
+All communication is encrypted end-to-end, preventing eavesdropping. SSH also warns users when a server’s key changes, helping detect man-in-the-middle attacks.  
+
+c) Integrity
+Cryptographic checks ensure that data is not altered while being transmitted.  
+
+d) Tunneling  
+SSH can securely forward other network protocols, creating a VPN-like encrypted tunnel.  
